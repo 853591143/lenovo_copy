@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  font-family: "microsoft yahei"; }
+
+.box {
+  width: 100%; }
+  .box .toph {
+    width: 100%;
+    min-width: 1200px;
+    height: 38px;
+    background: black; }
+  .box .content {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto; }
+    .box .content a:first-child {
+      display: block;
+      width: 1200px;
+      height: 400px;
+      position: relative;
+      overflow: hidden; }
+    .box .content a:last-child {
+      width: 1200px;
+      height: 100px;
+      position: relative;
+      overflow: hidden;
+      display: none; }
+  .box .logo_box {
+    height: 38px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px; }
+    .box .logo_box .logo_1 {
+      width: 189px;
+      height: 37px;
+      float: left;
+      background: url(../img/common/icons_sprit.png) -4px -363px no-repeat; }
+    .box .logo_box .logo_text {
+      width: 787px;
+      height: 36px;
+      float: right; }
+  .box .nav_h {
+    position: relative;
+    height: 56px;
+    width: 1200px;
+    margin: 0 auto; }
+
+.toph_box {
+  width: 1200px;
+  height: 38px;
+  margin: 0 auto; }
+  .toph_box .toph1 {
+    margin-left: -10px;
+    float: left; }
+    .toph_box .toph1 li {
+      float: left;
+      position: relative;
+      padding: 0 10px; }
+      .toph_box .toph1 li a {
+        color: #ffffff;
+        font-size: 13px;
+        line-height: 38px; }
+      .toph_box .toph1 li a:hover {
+        color: orangered; }
+      .toph_box .toph1 li em {
+        position: absolute;
+        right: 0;
+        top: 11px;
+        display: block;
+        width: 1px;
+        height: 14px;
+        background: #fff; }
+
+.top_title a {
+  background: url(../img/common/icons_sprit.png) no-repeat; }
+
+.top_link {
+  width: 90px;
+  position: relative;
+  float: left;
+  z-index: 9999;
+  cursor: pointer; }
+  .top_link .top_title {
+    color: #fff;
+    font-size: 14px;
+    line-height: 38px;
+    padding-left: 10px;
+    font-family: "microsoft yahei"; }
+    .top_link .top_title em {
+      position: absolute;
+      left: 3px;
+      top: 11px;
+      display: block;
+      width: 1px;
+      height: 14px;
+      background: #fff; }
+
+.top_link ul {
+  width: 156px;
+  border: 1px solid #d3d3d3;
+  position: absolute;
+  left: 0;
+  top: 38px;
+  z-index: 9999;
+  padding: 8px 0;
+  display: none;
+  background: #fff; }
+  .top_link ul li {
+    padding: 2px 0; }
+    .top_link ul li a {
+      display: block;
+      height: 31px;
+      line-height: 31px;
+      padding-left: 12px; }
+      .top_link ul li a em {
+        display: inline-block;
+        height: 31px;
+        line-height: 31px;
+        padding-left: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        color: #000;
+        font-style: normal; }
+      .top_link ul li a em:hover {
+        color: orangered; }
+      .top_link ul li a span {
+        width: 31px;
+        height: 31px;
+        float: left;
+        cursor: pointer; }
+
+.common_p {
+  background: url(../img/common/icons_sprit.png) no-repeat; }
+
+.cod_sina {
+  background-position: -3px -269px; }
+
+.cod_yang {
+  background-position: -38px -270px; }
+
+.cod_wei {
+  background-position: -108px -269px; }
+
+.cod_bai {
+  background-position: -209px -269px; }
+
+.cod_club {
+  background-position: -176px -269px; }
+
+.cod_qzone {
+  background-position: -142px -269px; }
+
+.cod_part {
+  background-position: -243px -270px; }
+
+.top_link .top_title:hover {
+  color: orangered; }
+
+.top_title a {
+  background-position: -211px -25px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 13px;
+  margin-left: 4px; }
+
+.top_car {
+  width: 78px;
+  position: relative;
+  float: left;
+  z-index: 9999;
+  float: right; }
+  .top_car a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 38px;
+    padding-left: 17px; }
+  .top_car a:hover {
+    color: orangered; }
+  .top_car span {
+    position: absolute;
+    display: inline-block;
+    background: url(../img/common/icons_sprit.png) -185px -201px no-repeat;
+    width: 19px;
+    height: 19px;
+    line-height: 18px;
+    padding-left: 2px;
+    top: 5px;
+    right: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 11px; }
+
+.dlzc {
+  cursor: pointer;
+  float: right; }
+  .dlzc li {
+    float: left;
+    position: relative;
+    padding: 0 10px; }
+    .dlzc li em {
+      position: absolute;
+      right: 0;
+      top: 11px;
+      display: block;
+      width: 1px;
+      height: 14px;
+      background: #fff; }
+    .dlzc li a {
+      display: inline-block;
+      height: 38px;
+      line-height: 38px;
+      color: #fff;
+      font-size: 13px; }
+    .dlzc li a:hover {
+      color: orangered; }
+
+.phone_ul em {
+  background: url(../img/common/icons_sprit.png) no-repeat; }
+
+.phone_ul {
+  width: 250px !important;
+  height: 120px;
+  cursor: auto; }
+  .phone_ul em {
+    position: absolute;
+    top: 20px;
+    left: 24px;
+    background-position: -88px -592px;
+    display: block;
+    width: 76px;
+    height: 76px; }
+  .phone_ul li {
+    padding: 10px 0 0 124px !important; }
+  .phone_ul div:nth-child(2), .phone_ul div:nth-child(3) {
+    font-size: 13px;
+    line-height: 20px; }
+  .phone_ul div:nth-child(2) {
+    color: #6F7170; }
+  .phone_ul div:nth-child(3) {
+    color: #FF4500; }
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  background: url(../img/common/icon_new.png) -7px -7px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer; }
+
+.logo_text input {
+  width: 615px;
+  height: 34px;
+  border: 1px solid #d2d2d2;
+  outline: 0;
+  font-size: 12px;
+  padding: 0 10px;
+  float: right;
+  line-height: 34px;
+  margin-right: -1px; }
+.logo_text a {
+  display: block;
+  float: right;
+  width: 61px;
+  height: 36px;
+  background-color: #000;
+  font-size: 16px;
+  color: #fff;
+  position: relative; }
+  .logo_text a span {
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    top: 6px;
+    left: 18px;
+    background-image: url(../img/header/search_btn.png); }
+
+.ad {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 200px;
+  height: 48px;
+  overflow: hidden; }
+
+.nav_box {
+  width: 1000px;
+  height: 56px;
+  margin: 0 auto;
+  padding-left: 200px; }
+  .nav_box > ul > li {
+    float: left;
+    padding-right: 54px;
+    line-height: 56px;
+    position: relative; }
+    .nav_box > ul > li > a {
+      font-size: 17px;
+      color: #000;
+      vertical-align: middle;
+      line-height: 66px;
+      height: 56px;
+      float: left; }
+    .nav_box > ul > li > a:hover {
+      color: orangered; }
+    .nav_box > ul > li span {
+      margin-left: -5px;
+      width: 32px;
+      top: 9px;
+      height: 21px;
+      position: absolute;
+      background-repeat: no-repeat;
+      background: url(../img/common/icons_sprit.png); }
+  .nav_box > ul > li:first-child span {
+    background-position: -275px -198px; }
+  .nav_box > ul > li:nth-child(3) span {
+    background-position: -268px -3px; }
+
+.nav_text {
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  background: #fff;
+  z-index: 333;
+  left: -72px;
+  top: 50px;
+  display: none; }
+  .nav_text li {
+    height: 30px;
+    line-height: 30px; }
+    .nav_text li a {
+      font-size: 12px; }
+    .nav_text li a:hover {
+      color: orangered; }
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;AAEb,KAAK;EACD,UAAU,EAAE,IAAI;;AAEpB,CAAC;EACG,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK",
+"sources": ["commo.scss"],
+"names": [],
+"file": "commo.css"
+}

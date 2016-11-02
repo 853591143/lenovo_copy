@@ -1,0 +1,493 @@
+@charset "utf-8";
+p{
+    font-family: "microsoft yahei";
+    font-size: 12px;
+}
+.all{
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+span{
+    font-family: "microsoft yahei";
+}
+.goods_show{
+    width: 1200px;
+    margin: 0 auto;
+    height: 1340px;
+    position: relative;
+}
+.shop_nav{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.nav_p{
+    float: left;
+    position: relative;
+    >ul{
+        width: 770px;
+        height: 365px;
+        >li{
+            position: absolute;
+            display: none;
+        }
+        >li:first-child{
+            display: block;
+        }
+    }
+    div .icon_p{
+        position: absolute;
+//      background: rgba(0,0,0,0.3);
+        left: 322px;
+        display: block;
+        bottom: 20px;
+        li{
+            float: left;
+            width: 11px;
+            height: 11px;
+            line-height: 11px;
+            text-align: center;
+            border-radius: 50%;
+            background: #FFFFFF;
+            color: #fff;            
+            margin: 5px;
+        }
+        li:first-child{
+            background: yellow;
+        }
+    }
+}
+.xuanxiangka{
+    width: 190px;
+    height: 364px;
+    border: 1px solid #e6e6e6;
+    float: left;
+    margin-right: 10px;    
+    >ul{
+           
+        >li{
+            height: 40px;
+               >div>a{
+                    height: 11px;
+                    line-height: 11px;
+                    font-size: 17px;
+                    font-family:"microsoft yahei";
+                    position: relative;
+                    padding: 14px 15px 15px 20px;
+                    font-weight: 400;
+                    display: block;
+                    border-bottom: 1px solid #e6e6e6;
+                    span{
+                        background: url(../img/common/icons_sprit.png) -84px -36px no-repeat;
+                        right: 15px;
+                        top: 21px;
+                        width: 6px;
+                        height: 9px;
+                        position: absolute;
+                    }
+                }
+                
+          }
+          li:last-child a{
+              border-bottom: none;
+          }
+          
+
+       } 
+}
+
+//navlist  danghanglan
+.list_cont{
+    width: 934px;
+    height: 343px;
+    background: #f7f7f7;
+    position: absolute;
+    left: 190px;
+    top: -1px;
+    padding: 0px 24px 24px 52px;
+    display: none;
+    z-index: 333;
+}
+
+.list_lt{
+    width: 630px;
+    float: left;
+    margin-top: 20px;
+}
+.list_rt{
+    width: 252px;
+    float: right;
+    margin-top: 10px;
+    img{
+        width: 252px;
+        height: 160px;
+        margin-bottom: 5px;
+    }
+}
+.list_lta{
+        margin-top: 15px;
+        >p{          
+            a{
+                font-size: 12px !important;
+            }
+          }
+        >p>a{
+             font-size: 13px !important;
+        }  
+          
+        ul{
+            margin-left: 55px;
+            border-bottom: 1px solid #e5e5e5;
+            width: 575px;
+            padding-bottom: 4px;
+            padding-top: 2px;
+            zoom: 1;
+            overflow: hidden;
+            li{
+                font-size: 12px;
+                float: left;
+                line-height: 20px;
+                height: 20px;
+                zoom: 1;
+                a{
+                    border-left: 1px solid #e5e5e5;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    color: #000;
+                    white-space: nowrap;
+                }
+            }
+        }
+}
+
+
+.zhanshilan{
+    width: 220px;
+    background: #fff;
+    position: relative;
+    float: right;
+    .horn_cont{
+           border: 1px solid #e6e6e6;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 4px;
+            padding-bottom: 2px;
+            position: relative;
+            height: 61px;
+            overflow: hidden;
+        .horn_ring{
+            position: absolute;
+            top: 6px;
+            width:16px;
+            height:13px;
+            background: url(http://pic.shop.lenovo.com.cn/g1/M00/00/F0/CmBZD1ZynUyAUnWjAAGn0mxLsoI703.png) -299px -320px;                
+        }
+       ul{
+           position: absolute;
+           font-size: 12px;
+           height: 60px;
+           li{
+              text-indent: 20px;
+              height: 60px;
+              line-height: 20px;
+           }   
+       }       
+    }
+}
+.shop_news{
+    width: 218px;
+    float: right;
+    height:296px;
+    border: 1px solid #E6E6E6;
+    border-top: none;
+    h2{
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 36px;
+        border-bottom: 1px dashed #e6e6e6;
+        padding-left: 9px;
+        padding-right: 9px;
+        display: block;
+        clear: both;
+        zoom: 1;
+        overflow: hidden;
+        span{
+            float: left;
+        }
+        a{
+            float: right;
+            font-size: 12px; 
+        }
+      
+    }
+    ul{
+        padding-top: 9px;
+        padding-right: 7px;
+        padding-left: 3px;
+        background: url(http://pic.shop.lenovo.com.cn/g1/M00/00/7B/CmBZEFZcEAeAchfVAAAG-2B8lnY220.gif) no-repeat center center;
+        li{
+            background: #fff;
+            a{
+                font-size: 12px;
+                color: #000;
+                display: block;
+                overflow: hidden;
+                line-height: 34px;
+                height: 34px;
+            }
+        }
+    }
+    a:hover{
+        color: orangered;
+    }
+}
+    
+    
+
+.nav_ads{
+    float: left;
+    margin:10px auto 20px;
+    height: 159px;
+    width:1200px;
+    a{
+        float: left;
+    }
+    .photo_huadong{
+        float: left;
+        width: 1008px;
+        height: 159px;
+        background: yellow;
+        overflow: hidden;
+        position: relative;
+        ul{
+            width: 2016px;
+            position: absolute;
+            left: -252px;
+            cursor: pointer;
+            li{
+                float: left;
+                width: 252px;
+                height: 159px;
+            }
+        }
+        .left_btn{
+            float: left;
+            width: 41px;
+            height: 69px;
+            position: absolute;
+            left: 0px;
+            top: 45px;
+            z-index: 10;
+            background-position: -88px -192px;
+        }
+        .right_btn{
+            float: right;
+            width: 41px;
+            height: 69px;
+            position: absolute;
+            right: 0;
+            top: 45px;
+            z-index: 10;
+            background-position: -130px -192px;
+        }
+        div{
+            background: url(../img/common/icons_sprit.png) no-repeat;
+            cursor: pointer;
+            display: none;
+        }
+        
+    }
+    
+}
+
+.star_main{   
+    position: absolute;
+    height: 341px;
+    width: 1200px;
+    top: 565px;
+    margin: 0 auto;
+    overflow: hidden;
+    h3{
+        height: 42px;
+        line-height: 42px; 
+        font-size: 20px;
+        font-weight: normal;
+        position: relative;
+    }
+//  .o_icon{
+//          float: right;
+//          .ol_icon,.or_icon{
+//              float: left;
+//              margin-right: 5px;
+//              background: url(../img/common/CmBZD1ZYVqKAAyHZAADar4afzUA168.png) no-repeat;
+//              height: 18px;
+//              width: 18px;
+//          }
+//          .ol_icon{
+//              background-position:-143px -31px;
+//          }
+//          .or_icon{
+//              background-position: -117px -31px;
+//         }
+//      } 
+    ul{
+       //width:2412px;
+       position: absolute;
+        li{
+            text-align: center;
+            width: 198px;
+            height: 297px;
+            float: left;
+            border: 1px solid #e6e6e6;
+            a img{
+                width: 180px;
+                height: 180px;
+                margin-top: 15px;
+                margin-bottom: 28px;
+            }
+            p{
+                line-height: 20px;
+                width: 179px;
+                overflow: hidden;
+                height: 20px;                
+                padding: 0px 10px;
+              a{
+                  font-size: 13px;
+               }   
+            }
+            p:first-child a{
+                font-size: 13px !important;
+            }
+            p.star_middle a{
+                color: #6f7170;
+            }
+            p:last-child a{
+                font-size: 14px;
+                color: orangered;
+            }
+        }
+    }
+    div{
+        display: inline-block;
+        background-image: url(http://pic.shop.lenovo.com.cn/g1/M00/00/78/CmBZD1ZYVqKAAyHZAADar4afzUA168.png);
+        background-repeat: no-repeat;
+        cursor: pointer;
+        width: 18px;
+        height: 18px;       
+        top: 15px;
+        position: absolute;
+    }
+    .l_b{
+        position: absolute;
+        right: 28px;
+        background-position: -143px -31px;
+    }
+    .l_r{
+        position: absolute;
+        right: 1px;
+        background-position: -117px -31px;
+    }
+
+}
+.hobby{
+    position: absolute;
+    top: 930px;
+}
+.louti{
+    background: #f5f5f5;
+    width: 100%;
+    min-width: 1200px;
+    height: 3382px;
+    .floor{
+        height: 583px;
+        width: 1200px;
+        margin:0px auto 30px;
+        .f_title{
+            padding-top: 20px;
+            height: 48px;
+            line-height: 48px;
+            
+                h3{
+                    float: left;
+                }
+                ul{
+                    float: right;
+                    li{
+                        float: left;
+                    }
+                }    
+        }
+        .f_goods{
+            width: 1200px;
+            height: 535px;
+            a{
+                float: left;
+            }
+            ul{
+                
+                width: 960px;
+                float: right;
+                li{
+                   
+                    height: 267px;
+                    width: 240px;
+                    float: left;   
+                }
+            }
+        }
+    }
+}
+.six_box{
+    width: 1200px;
+    height: 257px;
+    margin:0px auto;
+    padding: 30px 0;
+        h3{
+            height: 42px;
+            line-height: 42px;
+            
+        }
+        ul{
+            height: 212px;
+            li{
+                float: left;
+                width: 190px;
+                height: 212px;
+                overflow: hidden;
+                margin-right: 12px;             
+            }
+            li:last-child{
+                margin: 0;
+            }
+        }    
+}
+.boxshadow{
+    box-shadow: 0px 0px 18px black;
+}
+.jiantou{
+    cursor: pointer;
+    height: 50px;
+    width: 30px;
+    background: rgba(0,0,0,0.3); 
+    position: absolute;
+    top: 157px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    -webkit-user-select: none;
+}
+.jiantou:hover{
+    background:rgba(255,255,255,0.3);
+}
+.left_icon{
+    left: 0; 
+}
+.right_icon{
+    right: 0;
+}
+//ww 2

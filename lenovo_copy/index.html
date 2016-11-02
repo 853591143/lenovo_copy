@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>联想中国(Lenovo China)笔记本电脑,平板电脑,手机,台式机,服务器,外设数码-联想商城</title>
+	</head>
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/body.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/commo.css" />
+	<body>
+		<div class="header"></div>
+		<div class="body"></div>
+		<div class="footer"></div>
+	</body>
+	<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+	<script>
+		$(".header").load("header.html .box",function(){
+			$.getScript("js/header.js")
+		})
+		$(".body").load("body.html .all",function(){
+			$.getScript("js/body.js")
+		})
+		$(".footer").load("footer.html .foot_start",function(){
+			$.getScript("js/footer.js")
+		})
+	</script>
+	
+</html>

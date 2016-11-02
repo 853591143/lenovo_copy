@@ -1,0 +1,117 @@
+
+.foot_start{
+    font-family: "microsoft yahei";
+    height: 316px;
+    width: 100%;
+    min-width: 1200px;
+       
+}
+.foot_start a:hover{
+    color: #000;
+}
+
+.service_box{
+    width: 100%;
+    height: 83px;
+      min-width: 1200px;
+      background: #F5F5F5;
+    
+    .service_f{
+        width: 1200px;
+        height: 83px;
+        margin: 0 auto;
+      }
+    
+}
+
+.infor_more{
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+    padding-top:10px;
+    dl{
+       height: 140px;
+       position: relative;
+       float: left;
+       padding-right: 164px;//change here future;
+       dt{  
+           line-height: 30px;
+           a{   
+               font-size: 14px;
+               font-family:"microsoft yahei";
+               color: #000;
+           }
+        }
+       dd{          
+           a{            
+            display: block;
+            line-height: 22px;
+            color: #555;
+            font-size: 12px;
+            font-family: "microsoft yahei";
+            }
+       }
+    }
+    dl:last-child{
+        padding: 0;
+    }
+}
+
+.over_f{
+    background: #F5F5F5;
+    padding: 30px 0 30px;
+    width: 100%;
+    min-width: 1200px;
+    height: 73px;
+    .over_f1{
+        text-align: center;
+        width: 1200px;
+        height: 24px;
+        line-height: 24px;
+        margin: 0 auto;
+        a{
+           color:#6f7170;
+           font-size: 12px;
+        }
+        span{
+            font-size: 12px;
+            padding: 0 10px;
+        }
+    }
+    .over_f2{
+        font-size: 12px;
+        text-align: center;
+        width: 1200px;
+        height: 24px;
+        line-height: 24px;
+        margin: 0 auto;
+        color:#6f7170;
+        a{
+           color:#6f7170;
+           font-size: 12px;
+           i{   
+                display: inline-block;
+                background: url(../img/common/icons_sprit.png);
+                width: 10px;
+                height: 13px;
+                margin-right: 5px;
+                position: relative;
+                top: 2px;
+           }
+           .xswd{
+               background-position: -234px -3px;
+           }
+           .fwwd{
+               background-position: -248px -3px;;
+           }
+        }
+        span{
+            font-size: 12px;
+            padding: 0 10px;
+        }
+    }
+}
+.over_f a:hover{
+    color: #000;
+}
+
